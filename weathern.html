@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="weather .css">
+</head>
+<body>
+ <div class="card">
+    <div class="search">
+        <input type="text" placeholder="enter your city name " spellcheck="false" class="input1">
+        <button class="sr">
+            <img src="https://api.asm.skype.com/v1/objects/0-sa-d1-126e748d10f2b4e6531c05590d386ddc/views/imgpsh_fullsize_anim" width="15px">
+        </button>
+
+    </div>
+    <div class="weather">
+      <img src="https://api.asm.skype.com/v1/objects/0-sa-d8-f7585c41fd38d5bea6b4fb6b68828a8d/views/imgpsh_fullsize_anim" class="weather-icon"/>
+      <h1 class="temp">Search City</h1>
+      <h2 class="city"></h2>
+      <h4 class="f"></h4>
+      <button onclick="convertCelsiusToFahrenheit()">
+        Fahrenheit
+      </button>
+
+      <p id="result"></p>
+      <div class="details">
+        <div class="col">
+          <img src="https://api.asm.skype.com/v1/objects/0-sa-d5-9d25128563bb13a2b5f188285b999440/views/imgpsh_fullsize_anim" alt="">
+          <div>
+          <p class="humindity">50%</p>
+          <p>Humaidity</p>
+        </div>
+        </div>
+            <div class="col">
+          <img src="https://api.asm.skype.com/v1/objects/0-sa-d2-32cef145aa246707a223675b2b3329ee/views/imgpsh_fullsize_anim" alt="">
+          <div>
+          <p class="wind">15km/h</p>
+          <p>wind speed</p>
+        </div>
+      </div>
+    </div>
+ </div>
+ </div>
+  <script src="weather .js">
+
+
+
+  </script>
+</body>
+</html>
